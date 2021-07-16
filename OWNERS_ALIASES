@@ -1,10 +1,11 @@
-# This file is auto-generated from peribolos
+# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify peribolos/knative-sandbox.yaml
 
 aliases:
   api-core-wg-leads:
   - dprotaso
   async-component-approvers:
-  - beemarie
+  - bvennam
   - julz
   - maximilien
   autoscaling-wg-leads:
@@ -20,11 +21,9 @@ aliases:
   - devguyio
   - lionelvillard
   - matzew
-  - slinkydeveloper
   - vaikas
   delivery-wg-leads:
   - matzew
-  - slinkydeveloper
   discovery-approvers:
   - lberk
   - n3wscott
@@ -54,6 +53,7 @@ aliases:
   - aliok
   - davyodom
   - devguyio
+  - eric-sap
   - lberk
   - matzew
   - phamilton
@@ -61,7 +61,6 @@ aliases:
   - travis-minke-sap
   eventing-kafka-broker-approvers:
   - pierDipi
-  - slinkydeveloper
   eventing-kafka-mtsource-approvers:
   - steven0711dong
   eventing-natss-approvers:
@@ -85,7 +84,6 @@ aliases:
   - lionelvillard
   - matzew
   - n3wscott
-  - slinkydeveloper
   - vaikas
   homebrew-kn-plugins-approvers:
   - dsimansk
@@ -103,6 +101,11 @@ aliases:
   kn-plugin-event-approvers:
   - cardil
   - rhuss
+  kn-plugin-func-approvers:
+  - lance
+  - lkingland
+  - matejvasek
+  - zroubalik
   kn-plugin-migration-approvers:
   - maximilien
   - zhangtbj
@@ -124,17 +127,18 @@ aliases:
   - rhuss
   knative-admin:
   - bsnchan
+  - dprotaso
   - evankanderson
-  - fallback-notification-blocker
+  - julz
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   - markusthoemmes
+  - matzew
   - mbehrendt
   - pmorie
   - rhuss
-  - tcnghia
   - thisisnotapril
   - vaikas
   knative-milestone-maintainers:
@@ -143,24 +147,25 @@ aliases:
   - aslom
   - chaodaiG
   - csantanapr
+  - dprotaso
   - evankanderson
   - josephburnett
+  - julz
   - k4leung4
   - lionelvillard
   - markusthoemmes
+  - matzew
   - mikehelmick
   - n3wscott
   - nak3
   - navidshaikh
   - rhuss
-  - slinkydeveloper
   - tcnghia
   - vagababov
   - vaikas
   knative-release-leads:
-  - fallback-notification-blocker
-  - tcnghia
-  - vaikas
+  - dprotaso
+  - matzew
   knative-robots:
   - knative-prow-releaser-robot
   - knative-prow-robot
@@ -189,11 +194,12 @@ aliases:
   networking-wg-leads:
   - ZhiminXiang
   - nak3
-  - tcnghia
   operations-wg-leads:
   - houshengbo
   operations-writers:
+  - dprotaso
   - houshengbo
+  - upodroid
   productivity-wg-leads:
   - chizhg
   - n3wscott
@@ -211,7 +217,6 @@ aliases:
   - dprotaso
   - markusthoemmes
   - nak3
-  - tcnghia
   - vagababov
   source-wg-leads:
   - lionelvillard
@@ -223,8 +228,9 @@ aliases:
   - thisisnotapril
   - vaikas
   technical-oversight-committee:
+  - dprotaso
   - evankanderson
-  - fallback-notification-blocker
+  - julz
   - markusthoemmes
   - rhuss
   ux-wg-leads:
